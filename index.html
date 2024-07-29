@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banner Slideshow</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <a
+          href="https://cloud.google.com/learn/what-is-artificial-intelligence"
+        >
+          <img
+            src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+      <div class="mySlides fade">
+        <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">
+          <img
+            src="https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+      <div class="mySlides fade">
+        <a href="https://openai.com/">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipUuPTpMSrEgmJ6VadKft1pVkOru1j3HFjieQs59tjVYw65i-2V-_YOup6dV2xzlJQcI&usqp=CAU"
+            style="width: 100%"
+          />
+        </a>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script src="scripts.js"></script>
+    <div class="dot-container">
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </body>
+</html>
